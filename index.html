@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,6 +15,7 @@
 
         body {
             place-items: center;
+            display: grid;
             background-image: url(img/trem.png);
         }
         
@@ -28,7 +29,7 @@
             padding: 15px;
         }
 
-        div {
+        .primeiro , .segundo , .terceiro , .time1 {
             place-items: center;
             display: flex;
             margin: 10px;
@@ -85,13 +86,19 @@
         .numero3 {
             font-size: 30px;
         }
+        h4 {
+            color: white;
+        }
+        .time1 {
+            background: #d5d;
+        }
 
     </style>
 </head>
 <body>
     <h1>Meus Personagens Do Honkai Star Rail</h1>
 
-    <h2>Meus Melhores</h2>
+    <h2>Meus Preferidos</h2>
 <div class="primeiro">
     <p class="numero1">1°</p>
     <img class="ouro" src="img/Cyrene.png" alt="">
@@ -118,6 +125,18 @@
     <p>É a personagem que eu mais gosto no jogo, pra mim é a mecânica de quebra é a mais divertida de todas as mecânicas do jogo. O único problema é que sem o time premium  ou com os eidolons dos personagens do time dela o time não passa nada</p>
     </div>
 </div>
+
+<h1>Meus Times</h1>
+
+<div class="time1">
+    <h4>Time de Castorice</h4><br>
+    <img src="img/castoriceIcon.png" alt="Castorice">
+    <img src="img/evernightIcon.png" alt="Evernight">
+    <img src="img/cyreneIcon.png" alt="Cyrene">
+    <img src="img/hyacineIcon.png" alt="Hyacine">
+
+</div>
+
     
 </body>
 </html>
